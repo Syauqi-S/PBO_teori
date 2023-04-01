@@ -1,0 +1,25 @@
+import java.io.*; //mengimport semua class(*) dari package io
+
+public class Latihan511Buff {  //membuat class Latihan511Buff
+    public static void main(String[] args){ // method main agar program dapat dijalankan
+        BufferedReader In = new BufferedReader(new InputStreamReader( System.in) ); // membuat object In untuk input user
+        
+        String huruf, huruf1, huruf2, huruf3; //deklarasi var huruf...huruf3 dengan tipe data string
+        
+	//proses Input dilakukan
+        try{ 
+            System.out.print("Huruf 1 : ");
+            huruf1 = In.readLine();
+            System.out.print("Huruf 2 : ");
+            huruf2 = In.readLine();
+            System.out.print("Huruf 3 : ");
+            huruf3 = In.readLine();
+        
+	//menggabungkan huruf-huruf yang telah diinputkan lalu di masukkan ke dalam var huruf dan ditampilkan menggunakan variable tersebut(huruf)
+            huruf = huruf1 + " " + huruf2 + " " + huruf3;
+            System.out.println(huruf);
+        }catch( IOException e){
+            
+        }
+    }
+}

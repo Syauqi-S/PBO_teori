@@ -1,0 +1,18 @@
+import javax.swing.JOptionPane; // mengimport class JOptionPane dari package swing
+
+public class Latihan512JOP { // membuat class Latihan512JOP
+    public static void main(String[] args){ // membuat method main agar program dapat berjalan
+    
+	//deklarsi var huruf...huruf3 dengan tipe data string 
+        String huruf, huruf1, huruf2, huruf3;
+        
+	//Input user dilakukan
+        huruf1 = JOptionPane.showInputDialog("Huruf1 : ");
+        huruf2 = JOptionPane.showInputDialog("Huruf2 : ");
+        huruf3 = JOptionPane.showInputDialog("Huruf3 : ");
+        
+	//memasukkan data yang telah diinputkan user ke dalam var huruf, lalu menampilkan var huruf teresebut
+        huruf = huruf1 + " " + huruf2 + " " + huruf3;
+        JOptionPane.showMessageDialog(null, huruf);
+    }
+}
