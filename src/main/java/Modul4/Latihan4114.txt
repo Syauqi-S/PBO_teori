@@ -1,0 +1,10 @@
+Diberikan pernyataan berikut ini, tulis kembali soal tersebut dengan menambahkan tanda 
+kurung pada urutan sesuai dengan bagaimana pernyataan tersebut akan dievaluasi. 
+1. a / b ^ c ^ d – e + f – g * h + i 
+2. 3 * 10 *2 / 15 – 2 + 4 ^ 2 ^ 2 
+3. r ^ s * t / u – v + w ^ x – y++
+
+jawab :
+1. a / (b ^ (c ^ d)) – e + f – (g * h) + i 
+2. ((3 * 10 *2) / 15) – 2 + (4 ^ (2 ^ 2)) 
+3. ((r ^ s) * t / u) – v + (w ^ x) – (y++)
