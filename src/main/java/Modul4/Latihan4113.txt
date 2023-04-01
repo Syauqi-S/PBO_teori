@@ -1,0 +1,16 @@
+public class Latihan3 { // membuat class Latihan3
+    public static void main(String[] args){ // membuat method main agar program dapat dijalankan
+    
+	//mendeklarasi var a, b, c, dan highest dengan tipe data int dan var a, b, c diisi dengan nilai 10, 23, 5
+        int a = 10;
+        int b = 23;
+        int c = 5;
+        int highest; // variable untuk nilai tertinggi
+       
+        highest = (a > b)?((a>c)?a:c):((b>c)?b:c); // proses operator ternary dilakukan, a > b? jika benar akan memperoses a > c dan jika benar lagi akan meletakkan a ke variable highest... begitu juga dengan kondisi yang lain
+
+        System.out.println("Nilai "+a+b+c); // menampilkan Nilai 10 23 5 / 10 23 5 berasal dari var a, b, c
+        System.out.println("Nilai tertinggi = " + highest); // menampilkan Nilai tertinggi = 23 //23 didapat dari proses operator ternary yang dilakukan pada var a, b, c
+
+    } // tutup main()
+} // tutup class

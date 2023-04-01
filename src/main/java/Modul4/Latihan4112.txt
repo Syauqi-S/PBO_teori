@@ -1,0 +1,16 @@
+public class Latihan2 { // membuat class Latihan2
+    public static void main(String[] args){ //method main agar program dapat berjalan
+    
+	//deklarasi var a, b, c, dan av dengan tipe data int, dan var a, b , c diisi dengan nilai 10, 20, 45
+        int a = 10;
+        int b = 20;
+        int c = 45;
+        int av; // average
+        
+        av = (a+b+c)/3; // proses average/ mencari rata-rata dari variable a, b, c
+        System.out.println("number 1 = " + a); // menampilkan number 1 = 10 / 10 dari var a
+        System.out.println("number 2 = " + b); // menampilkan number 2 = 20 / 20 dari var b
+        System.out.println("number 3 = " + c); // menampilkan number 3 = 45 / 45 dari var c
+        System.out.println("average = " + av); // menampilkan average = 25 / 25 dari hasil var av yang telah memproses var a, b, c
+    } // tutup main()
+} // tutup class

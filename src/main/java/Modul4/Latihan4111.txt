@@ -1,0 +1,14 @@
+public class Latihan1 { // sebagai class latihan1
+    public static void main(String[] args){ // fungsi main agar program dapat berjalan
+    
+        int number = 10; // deklarasi var number dengan tipe data int dan diisi nilai 10
+        char letter = 'a'; // deklarasi var letter dengan tipe data char dan diisi a
+        boolean result = true; // deklarasi var result dengan tipe data boolean dan diisi true
+        String str = "hello"; // deklarasi var str dengan tipe data str dan diisi hello
+        
+        System.out.println("Number = " + number); //menampilkan Number = 10 // 10 di dapat dari var number yang telah diisi
+        System.out.println("letter = " + letter); //menampilkan letter = a // a di dapat dari var letter
+        System.out.println("result = " + result); // menampilkan result = true // true di dapat dari var result
+        System.out.println("str = " + str); // menampilkan str = hello // hello di dapat dari var str
+    } //tutup main()
+} //tutup class
